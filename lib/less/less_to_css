@@ -1,0 +1,6 @@
+# First:
+# 1. create a symlink from mod_base/lib/less to 'mod_base_less' in the current lib folder.
+# 2. create a symlink from mod_artwork/lib/font-awesome-4/less/ 'font_awesome_less' in the current lib folder.
+# 3. Add to the main less file: @import "z.icons.less";
+
+lessc --include-path="../mod_base_less:../font_awesome_less" mod_import_webpage.less ../css/mod_import_webpage.css
