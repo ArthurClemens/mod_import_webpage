@@ -13,8 +13,8 @@
 -define(TIMEOUT, 5). % in seconds
 -define(DEFAULT_PROTOCOL, <<"http:">>).
 -define(DEFAULT_RULES, [
-    {title, ["//html//head//title//text()"]},
-    {description, ["//html//head//meta[@name='description']//@content"]},
+    {title, ["//html//body//h1[1]//text()"]},
+    {summary, ["//html//head//meta[@name='description']//@content"]},
     {images, ["//img/@src", "//html//head//meta[@property='og:image']//@content"]}
 ]).
 -define(OPT_RULES, [

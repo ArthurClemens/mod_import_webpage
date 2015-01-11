@@ -74,8 +74,8 @@ event(#submit{message={process_url, [
                                 [<<"">>, ImageUrl] % image_resource, image_url
                             end, Images2),
                             PageUrl = proplists:get_value(url, Data),
-                            PageTitle = proplists:get_value(title, Data),
-                            Summary = proplists:get_value(summary, Data),
+                            PageTitle = z_string:trim(proplists:get_value(title, Data)),
+                            Summary = z_string:trim(proplists:get_value(summary, Data)),
                             z_render:wire([{replace, [
                                 {template, OkTemplate},
                                 {target, OkTarget},
