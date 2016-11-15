@@ -132,7 +132,7 @@ event(#submit{message={update_note, [
                     % same image passed, do nothing
                     [{image_crop, ImageCrop}]
             end;
-        _ -> [{image, delete}, {file, File}, {image_crop, ImageCrop}]
+        _ -> [{file, File}, {image_crop, ImageCrop}]
     end,
     update_page(PageId, Title, Summary, CollectionId, PageContext, UpdateModule, UpdateFun, Options, Context);
     
