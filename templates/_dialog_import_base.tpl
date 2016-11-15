@@ -21,6 +21,7 @@ page_context
     mod_import_webpage.lang.no_images_found = "{_ IMPORT_FROM_URL_NO_IMAGES_MESSAGE _}";
     mod_import_webpage.lang.no_useful_images_found = "{_ IMPORT_FROM_URL_NO_USEFUL_IMAGES_MESSAGE _}";
     mod_import_webpage.lang.choose_file = "{_ ADD_NOTE_CHOOSE_FILE_ACTION _}";
+    mod_import_webpage.lang.remove_image = "{_ IMPORT_FROM_URL_ACTION_REMOVE_IMAGE _}";
     {% endjavascript %}
 {% endblock %}
 

@@ -91,6 +91,9 @@ msgstr "Bewaren"
 msgid "IMPORT_FROM_URL_ACTION_SAVE"
 msgstr "Bewaren"
 
+msgid "IMPORT_FROM_URL_ACTION_REMOVE_IMAGE"
+msgstr "Afbeelding verwijderen"
+
 # mod_import_webpage.erl
 
 msgid "ADD_NOTE_ERROR_UPLOAD_MESSAGE"

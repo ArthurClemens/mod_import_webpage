@@ -1,5 +1,4 @@
 #3L {@import "3L/3L";}
-@import (reference) "z.icons/extend.less";
 
 @image_size: 130px;
 @crop_image_size: 160px;
@@ -140,18 +139,7 @@
         .miv_icon_button(@icon_size_button, 1px);
     }
     
-    .miw-btn-remove {
-        .extend_icon(z, icon-cross);
-        color: #fff;
-        background-color: #000;
-        opacity: .3;
-        
-        &:hover {
-            opacity: 1;
-        }
-    }
     .miw-icon-selected {
-        .extend_icon(z, icon-ok);
         top: 7px;
         left: 7px;
         opacity: 1;
@@ -249,7 +237,11 @@
         padding-top: 7px; // bootstrap align with left label
         margin: 0 0 10px 0;
     }
-    
+    .miw-link-remove {
+        padding-top: 7px; // bootstrap align with left label
+        display: inline-block;
+    }
+
     .miw-image-selection {
         #3L > .clearfix;
         position: relative;

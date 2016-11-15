@@ -1,19 +1,3 @@
-.miw-dialog .miw-btn-remove:before,
-.miw-dialog .miw-icon-selected:before {
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  display: inline-block;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-.miw-dialog .miw-btn-remove:before,
-.miw-dialog .miw-icon-selected:before {
-  font-family: "Zotonic";
-}
 .miv-breakword,
 .miw-dialog .miw-image-selection ul > li {
   -ms-word-break: break-all;
@@ -104,25 +88,11 @@
   -moz-border-radius: 8px;
   border-radius: 8px;
 }
-.miw-dialog .miw-btn-remove {
-  color: #fff;
-  background-color: #000;
-  opacity: .3;
-}
-.miw-dialog .miw-btn-remove:before {
-  content: "\e60c";
-}
-.miw-dialog .miw-btn-remove:hover {
-  opacity: 1;
-}
 .miw-dialog .miw-icon-selected {
   top: 7px;
   left: 7px;
   opacity: 1;
   display: none;
-}
-.miw-dialog .miw-icon-selected:before {
-  content: "\e608";
 }
 .miw-dialog .miw-image {
   overflow: hidden;
@@ -176,14 +146,14 @@
 }
 .miw-dialog .miw-image .miw-image-row input[type=radio]:checked + label .miw-icon-selected {
   display: block;
-  background-color: #00b100;
-  color: #ffffff;
+  background-color: #00B100;
+  color: #fff;
 }
 html:not(.touch) .miw-dialog .miw-image .miw-image-row input[type=radio]:not(:checked) + label:hover .miw-icon-selected {
   display: block;
-  background-color: #ffffff;
-  color: #00b100;
-  border-color: #00b100;
+  background-color: #fff;
+  color: #00B100;
+  border-color: #00B100;
 }
 .miw-dialog .miw-image .miw-image-row input[type=radio]:checked + label .miw-btn-remove {
   display: block;
@@ -207,7 +177,7 @@ html:not(.touch) .miw-dialog .miw-image .miw-image-row input[type=radio]:not(:ch
   width: auto;
 }
 .miw-dialog .miw-image.miw-crop-image .miw-image-row figure {
-  border: 1px solid #eeeeee;
+  border: 1px solid #eee;
 }
 .miw-dialog .miw-image-selection,
 .miw-dialog .miw-image-empty {
@@ -217,12 +187,16 @@ html:not(.touch) .miw-dialog .miw-image .miw-image-row input[type=radio]:not(:ch
   padding-top: 7px;
   margin: 0 0 10px 0;
 }
+.miw-dialog .miw-link-remove {
+  padding-top: 7px;
+  display: inline-block;
+}
 .miw-dialog .miw-image-selection {
   *zoom: 1;
   position: relative;
   padding: 6px 6px;
   background-color: #f5f5f5;
-  border: 1px solid #eeeeee;
+  border: 1px solid #eee;
 }
 .miw-dialog .miw-image-selection:before,
 .miw-dialog .miw-image-selection:after {
